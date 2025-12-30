@@ -1,0 +1,13 @@
+[package]
+name = "sumcheck"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-ff = "0.4"
+ark-serialize = "0.4"
+mlpoly = { path = "../mlpoly" }
+
+blake2 = "0.10"
+digest = "0.10"
+rand_core = "0.6"
