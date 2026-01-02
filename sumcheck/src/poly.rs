@@ -13,8 +13,8 @@ pub struct LinearPoly<F: Field> {
 }
 
 impl<F: Field> LinearPoly<F> {
-    fn coeffs(&self) -> &[F] {
-        &[self.c0, self.c1]
+    fn coeffs(&self) -> Vec<F> {
+        vec![self.c0, self.c1]
     }
     fn eval(&self, x: F) -> F {
         self.c0 + self.c1 * x

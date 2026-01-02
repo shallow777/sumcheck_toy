@@ -5,7 +5,7 @@ pub mod poly;
 pub mod oracle;
 pub mod transcript;
 pub mod iop;
-pub mod fs;
+//pub mod fs;
 
 pub use error::{Error, Result};
 pub use statement::Statement;
