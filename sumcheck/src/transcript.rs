@@ -1,5 +1,4 @@
 use ark_ff::PrimeField;
-use ark_serialize::CanonicalSerialize;
 use blake2::Blake2s256;
 use digest::{Digest, FixedOutputReset};
 

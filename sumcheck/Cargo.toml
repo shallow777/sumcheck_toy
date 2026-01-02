@@ -11,3 +11,7 @@ mlpoly = { path = "../mlpoly" }
 blake2 = "0.10"
 digest = "0.10"
 rand_core = "0.6"
+
+[dev-dependencies]
+ark-std = "0.4"
+ark-bn254 = "0.4"
